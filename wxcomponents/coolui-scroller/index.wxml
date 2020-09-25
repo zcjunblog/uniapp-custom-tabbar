@@ -1,0 +1,22 @@
+<block wx:if="{{scrollOption.refresh.type == 'default'}}">
+	<scroll-view
+	 scroll-y
+	 class="scroll"
+	 refresher-enabled="{{true}}"
+	 refresher-threshold="{{100}}"
+	 refresher-default-style="{{scrollOption.refresh.style}}"
+	 refresher-background="#f2f2f2"
+	 refresher-triggered="{{triggered}}"
+	 bindrefresherpulling="onPulling"
+	 bindrefresherrefresh="onRefresh"
+	 bindrefresherrestore="onRestore"
+	 bindscrolltolower="lower"
+	 bindscroll="scroll"
+	 style="height:100%"
+	>
+		<view class="inner">
+			<slot name="inner" />
+		</view>
+	</scroll-view>
+</block>
+

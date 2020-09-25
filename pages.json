@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序名",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "coolui-scroll": "/wxcomponents/coolui-scroller/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+      "van-popup": "/wxcomponents/vant/popup/index",
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-tab": "/wxcomponents/vant/tab/index",
+      "van-tabs": "/wxcomponents/vant/tabs/index",
+      "van-search": "/wxcomponents/vant/search/index",
+      "van-dialog": "/wxcomponents/vant/dialog/index",
+      "van-calendar": "/wxcomponents/vant/calendar/index",
+      "van-radio": "/wxcomponents/vant/radio/index",
+      "van-radio-group": "/wxcomponents/vant/radio-group/index",
+      "van-checkbox": "/wxcomponents/vant/checkbox/index",
+      "van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+      "van-steps": "/wxcomponents/vant/steps/index",
+      "van-grid": "/wxcomponents/vant/grid/index",
+      "van-grid-item": "/wxcomponents/vant/grid-item/index",
+      "van-cell": "/wxcomponents/vant/cell/index",
+      "van-image": "/wxcomponents/vant/image/index",
+      "van-loading": "/wxcomponents/vant/loading/index",
+      "van-switch": "/wxcomponents/vant/switch/index",
+      "van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+      "van-tag": "/wxcomponents/vant/tag/index"
+    }
+  },
+  "easycom": {
+    "autoscan": true
+  }
+}
